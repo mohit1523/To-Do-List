@@ -1,0 +1,98 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    *::selection{
+        background-color: black;
+        color: red;
+    }
+
+    body{
+        background:aliceblue;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 2.5rem;
+        margin: auto;
+        padding: 1vw;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: 00.1vw solid black;
+        background-color: lightslategray;
+    }
+
+
+    form{
+        width:60%;
+        margin: auto;
+        margin-top:3vw ;
+        height: 80vh;
+        border: 0.1vw solid lightslategray;
+        overflow-y: auto;
+        border-top-left-radius: 2vw;
+        background:none ;
+    }
+
+
+    #input-but{
+        outline: none;
+        border: none;
+        width: 75%;
+        border-bottom: 0.1vw dashed black;
+        padding: 1vw;
+        margin: 1vw;
+        font-family: cursive;
+        background: none;
+    }
+
+
+    #input-but:focus{
+        border: 0.2vw solid black;
+        border-top-left-radius: 1vw;
+    }
+
+    #add-button{
+        border: none;
+        background-color: red;
+        padding: 1vw;
+        font-weight: bolder;
+        border-radius: 0.5vw;
+    }
+
+    #add-button:hover{
+        background-color:rgb(248, 101, 101);
+        color: black;
+    }
+
+
+    #text > li {
+        background-color: lightgray;
+        margin: 1vw 2vw;
+        padding: 1vw;
+        text-transform:capitalize;
+        font-family: cursive;
+        border-top-left-radius: 1vw;
+        overflow-x: auto;
+        cursor: pointer;
+    }
+
+    #text > li:hover {
+        text-decoration: line-through;
+    }
+
+#logo{
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    margin: -3px;
+    border: 0.1vw solid gray;
+    border-radius: 1vw;
+    transition: box-shadow 250ms;
+}
+
+
+#logo:hover{
+    cursor: not-allowed;
+    box-shadow: 0.2vw 0.2vw 0.4vw black;
+}
